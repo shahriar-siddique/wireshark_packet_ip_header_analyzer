@@ -20,44 +20,27 @@ The "Wireshark Packet IP Header Analyzer" is a C program that reads a binary fil
 The program checks the endianness of the system and converts the IP header fields to little endian if the system follows little endian byte order. This ensures consistent interpretation of multi-byte data in the IP header.
 
 
-**IP Header Structure:**
-
-The IP header structure is defined in the code as follows:
-
-
-
-
 **Output:**
 
 
 The program displays the following IP header details:
-IP version
 
-Internet Header Length (IHL)
-
-Type of Service (TOS)
-
-Total Length
-
-Identification
-
-Flags
-
-Fragment Offset
-
-Time To Live (TTL)
-
-Protocol
-
-Header Checksum
-
-Source IP Address
-
-Destination IP Address
+* IP version
+* Internet Header Length (IHL)
+* Type of Service (TOS)
+* Total Length
+* Identification
+* Flags
+* Fragment Offset
+* Time To Live (TTL)
+* Protocol
+* Header Checksum
+* Source IP Address
+* Destination IP Address
 
 
 
-Endianess Information:
+**Endianess Information:**
 
 The program determines whether the system follows little endian or big endian byte order and prints the appropriate message.
 
