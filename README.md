@@ -54,6 +54,6 @@ The program frees the memory allocated for reading the binary file.
 
 **Important:**
 
-*. This program is provided as-is and may not be suitable for all use cases. It is intended for educational purposes only.
-*. Use this program responsibly and only on files you have permission to access.
-*. The author is not responsible for any misuse or damages caused by using this program.
+* This program is provided as-is and may not be suitable for all use cases. It is intended for educational purposes only.
+* Use this program responsibly and only on files you have permission to access.
+* The author is not responsible for any misuse or damages caused by using this program.
